@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import EmpleadoList from "./components/EmpleadoList";
+import './App.css';
 import emp1 from './img/1.jpg'
 import emp2 from './img/2.jpg'
 import emp3 from './img/3.jpg'

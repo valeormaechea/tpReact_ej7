@@ -1,4 +1,18 @@
 .listItem {
-  max-height: 160px;
+  max-height: 240px;
   background-color: rgb(208, 208, 208);
+  padding: 20px 0px;
+}
+
+.rowDetalles {
+  display: flex;
+  flex-wrap: no-wrap;
+  align-items: center;
+}
+
+.columnaDetalles{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
