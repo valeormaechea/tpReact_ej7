@@ -13,3 +13,5 @@ Ejecutar las siguientes lineas para clonar y visualizar el proyecto:
 - `npm start`
 
 ## Deploy en Netlify
+
+[https://tpreact-ej7.netlify.app/](https://tpreact-ej7.netlify.app/)
