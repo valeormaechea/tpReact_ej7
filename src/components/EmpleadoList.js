@@ -5,7 +5,7 @@ import EmpleadoRow from "./EmpleadoRow";
 const EmpleadoList = (props) => {
   return (
     <div>
-      <ListGroup>
+      <ListGroup id="listaEmpleados">
         {props.empleados.map((item, posicion) => (
           <EmpleadoRow key={posicion} empleado={item}></EmpleadoRow>
         ))}
