@@ -1,11 +1,17 @@
-import React from 'react';
+import React from "react";
+import { ListGroup } from "react-bootstrap";
+import EmpleadoRow from "./EmpleadoRow";
 
-const EmpleadoList = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+const EmpleadoList = (props) => {
+  return (
+    <div>
+      <ListGroup>
+        {props.empleados.map((item, posicion) => (
+          <EmpleadoRow key={posicion} empleado={item}></EmpleadoRow>
+        ))}
+      </ListGroup>
+    </div>
+  );
 };
 
 export default EmpleadoList;
